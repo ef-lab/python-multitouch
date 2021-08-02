@@ -112,7 +112,7 @@ class Touches(list):
 
 class Touchscreen(object):
 
-    TOUCHSCREEN_EVDEV_NAME = 'FT5406 memory based driver'
+    TOUCHSCREEN_EVDEV_NAME = 'raspberrypi-ts'
     EVENT_FORMAT = str('llHHi')
     EVENT_SIZE = struct.calcsize(EVENT_FORMAT)
 
